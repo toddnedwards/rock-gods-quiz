@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e46a729e48.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <title>Rock Gods Quiz</title>
+  </head>
+  <header>
+    <a href="/index.html" aria-label="Home Page"
+      ><img src="/assets/images/logo.jpeg" alt="Rock Gods Quiz Logo" id="logo"
+    /></a>
+  </header>
+  <body>
+    <div class="background-image">
+      <div class="container">
+        <div id="question-container" class="hide">
+          <div id="question-counter">
+            Question <span id="question-number">1</span> of 10
+          </div>
+          <div id="question">Question displayed here</div>
+          <div id="answers">
+            <button class="answer-btn">A</button>
+            <button class="answer-btn">B</button>
+            <button class="answer-btn">C</button>
+            <button class="answer-btn">D</button>
+          </div>
+        </div>
+        <div id="instructions">
+          <h1>Welcome To The Rock Gods Quiz</h1>
+          <h2>
+            <i class="fa-solid fa-bolt-lightning"></i> Instructions:
+            <i class="fa-solid fa-bolt-lightning"></i>
+          </h2>
+          <ol>
+            <li>There are four choices, choose one answer</li>
+            <li>
+              Choose wisely as once you've chosen, you can't change your answer
+            </li>
+            <li>Have fun!</li>
+          </ol>
+        </div>
+        <div class="button-container">
+          <button id="start-btn" class="main-btn">Start</button>
+          <button id="next-btn" class="hide">Next</button>
+          <button id="results-btn" class="hide main-btn">Get Results</button>
+        </div>
+
+        <div id="results-container" class="hide">
+          <div id="scores">
+            <p>
+              Congratulations! <br />You have scored
+              <span id="score-number">0</span> out of 10.
+            </p>
+            <p id="score-text"></p>
+          </div>
+          <button id="restart-btn" class="hide main-btn">Try Again!</button>
+        </div>
+      </div>
+    </div>
+    <script src="/assets/js/quiz.js"></script>
+  </body>
+</html>

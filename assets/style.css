@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: #000000;
     padding: 20px;
 }
 
@@ -29,7 +29,7 @@ header {
 }
 
 .container {
-    background-color: hsla(0, 0%, 0%, 0.686);
+    background-color: #000000af;
     width: 90%;
     height: 400px;
     margin: auto;
@@ -51,7 +51,7 @@ li {
 }
 
 .fa-solid {
-    color: yellow;
+    color: #FFFF00;
 }
 
 .answer-btn {
@@ -108,7 +108,7 @@ button {
     background-color: #000000;
     font-size: 30px;
     color: #ffffff;
-    border: 1px solid rgb(152, 4, 4);
+    border: 1px solid #FF0000;
     height: 40px;
     width: 100px;
     border-radius: 5px;
@@ -116,7 +116,7 @@ button {
 }
 
 #next-btn:hover {
-    background-color: hsla(58, 100%, 67%, 1);
+    background-color: #fff957;
     color: black;
 }
 
@@ -125,11 +125,11 @@ button {
 }
 
 .correct {
-    background-color: green;
+    background-color: #008000;
 }
 
 .incorrect {
-    background-color: red;
+    background-color: #FF0000;
 }
 
 .main-btn {

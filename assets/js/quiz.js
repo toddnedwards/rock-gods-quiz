@@ -65,8 +65,9 @@ function selectAnswer(e) {
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct);
     });
-    if (shuffledQuestions.length > currentQuestionIndex + 1) {
+    if (currentQuestionIndex < 9) {
         nextButton.classList.remove('hide');
+        answerButtonsElement.classList.remove('answer-btn');
     } else {
         resultsButton.classList.remove('hide');
     }

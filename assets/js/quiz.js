@@ -227,5 +227,93 @@ const questions =
                 { option: "c. Angus Young", correct: false },
                 { option: "d. Malcolm Young", correct: false },
             ]
-        }
-    ];
+        },
+        {
+            question: 'Who is the lead vocalist of the band "Guns N\' Roses"?',
+            answers: [
+                { option: "a. Slash", correct: false },
+                { option: "b. Axl Rose", correct: true },
+                { option: "c. Izzy Stradlin", correct: false },
+                { option: "d. Duff McKagan", correct: false },
+            ]
+        },
+        {
+            question: 'Which band released the album "Appetite for Destruction"?',
+            answers: [
+                { option: "a. Metallica", correct: false },
+                { option: "b. Guns N' Roses", correct: true },
+                { option: "c. AC/DC", correct: false },
+                { option: "d. Aerosmith", correct: false },
+            ]
+        },
+        {
+            question: '"Sweet Child o\' Mine" is a song by which band?',
+            answers: [
+                { option: "a. Aerosmith", correct: false },
+                { option: "b. Guns N' Roses", correct: true },
+                { option: "c. Metallica", correct: false },
+                { option: "d. AC/DC", correct: false },
+            ]
+        },
+        {
+            question: 'Who is known as the "Prince of Darkness" in rock music?',
+            answers: [
+                { option: "a. Ozzy Osbourne", correct: true },
+                { option: "b. Alice Cooper", correct: false },
+                { option: "c. Rob Zombie", correct: false },
+                { option: "d. Marilyn Manson", correct: false },
+            ]
+        },
+        {
+            question: 'Which band was originally known as "Mookie Blaylock"?',
+            answers: [
+                { option: "a. Nirvana", correct: false },
+                { option: "b. Pearl Jam", correct: true },
+                { option: "c. Soundgarden", correct: false },
+                { option: "d. Alice In Chains", correct: false },
+            ]
+        },
+        {
+            question: 'Who played the bass for Red Hot Chili Peppers?',
+            answers: [
+                { option: "a. Anthony Kiedis", correct: false },
+                { option: "b. Flea", correct: true },
+                { option: "c. John Frusciante", correct: false },
+                { option: "d. Chad Smith", correct: false },
+            ]
+        },
+        {
+            question: 'Which band sang the song "Under the Bridge"?',
+            answers: [
+                { option: "a. Red Hot Chili Peppers", correct: true },
+                { option: "b. Nirvana", correct: false },
+                { option: "c. Pearl Jam", correct: false },
+                { option: "d. Soundgarden", correct: false },
+            ]
+        },
+        {
+            question: 'Who is the lead singer of Pearl Jam?',
+            answers: [
+                { option: "a. Eddie Vedder", correct: true },
+                { option: "b. Kurt Cobain", correct: false },
+                { option: "c. Chris Cornell", correct: false },
+                { option: "d. Layne Staley", correct: false },
+            ]
+        },
+        {
+            question: 'Which band released the album "Ten"?',
+            answers: [
+                { option: "a. Nirvana", correct: false },
+                { option: "b. Soundgarden", correct: false },
+                { option: "c. Alice In Chains", correct: false },
+                { option: "d. Pearl Jam", correct: true },
+            ]
+        },
+        {
+            question: 'Who was the original lead singer of Black Sabbath?',
+            answers: [
+                { option: "a. Ronnie James Dio", correct: false },
+                { option: "b. Ozzy Osbourne", correct: true },
+                { option: "c. Tony Iommi", correct: false },
+                { option: "d. Geezer Butler", correct: false },]
+        }];

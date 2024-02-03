@@ -16,7 +16,7 @@ let currentQuestionIndex;
 
 /* Event listeners */
 
-startButton.addEventListener('click', startQuiz);
+startButton.addEventListener('click', startQuiz, console.log("start button pressed"));
 
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
@@ -55,7 +55,7 @@ function showQuestion(question) {
     });
 };
 
-function showQuestion(e) {
+function selectAnswer(e) {
     const selectedButton = e.target;
     const correct = selectedButton.dataset.correct;
     if (correct) {
@@ -84,7 +84,7 @@ function setStatusClass(element, correct) {
 function clearStatusClass(element) {
     element.classList.remove('correct');
     element.classList.remove('incorrect');
-};
+}
 
 function resetState() {
     nextButton.classList.add('hide');

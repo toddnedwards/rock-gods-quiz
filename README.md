@@ -6,7 +6,7 @@ Rock Gods Quiz is an interactive quiz where users answer 10 rock music based que
 
 View the live project [here](https://toddnedwards.github.io/rock-gods-quiz/)
 
-![Responsive Design](assets/readme/responsive.png)
+![Responsive Design](assets/readme/device-mockup.png)
 
 # User Experience (UX)
 
@@ -29,6 +29,8 @@ View the live project [here](https://toddnedwards.github.io/rock-gods-quiz/)
 
 ## Structure
 
+---
+
 The website starts with an instructions page which lays out the rules for the user and a start button. Once pressed, the start button will begin the quiz which will take the user through an array of 10 questions. Upon completion of answering the 10 questions, the user will be shown the results page giving them their score and a button that allows the user to restart the quiz. The logo on the top center of the website also takes the user back to the instructions and start button when clicked.
 
 ## Start Page
@@ -49,6 +51,8 @@ The start page shows the logo at the top of the page, followed by instructions f
 - To clearly show details on how to play the game
 
 ## Quiz Page
+
+---
 
 The quiz page has the logo at the top of the page, followed by a numbered question and 4 answer options. The button options will be buttons giving the user the option to click their answer. Once clicked, a "next" button will appear to allow the user to move the next question. Once all 10 questions have been answered, the user will be presented with a different button to view their results.
 
@@ -71,6 +75,8 @@ The quiz page has the logo at the top of the page, followed by a numbered questi
 
 ## Results Page
 
+---
+
 The results page displays the logo at the top of the page, followed by a text box congratulating the user on their score, and showing the user what their score was. Different results brackets are given different text to reflect how well the user did. Eg. Scoring between 6 and 8 out of 10 displays "You know your rock!"
 
 ### User Goal
@@ -86,12 +92,157 @@ The results page displays the logo at the top of the page, followed by a text bo
 - To show the user a variety of questions so the same questions aren't being repeated for them
 - To allow the user to see the "next" and "see results" buttons when they've either chosen their answer or completed the quiz
 
-- **The landing page image**
+## Wireframes
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+---
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+### Start Page
+
+[Desktop View](assets/readme/wireframes/start-page-full-screen.png) |
+[Ipad/ Tablet View](assets/readme//wireframes/start-page-tablet.png) |
+[Smartphone View](assets/readme//wireframes/start-page-smartphone.png)
+
+### Questions Page
+
+[Desktop View](assets/readme/wireframes/quiz-page-full-screen.png) |
+[Ipad/ Tablet View](assets/readme//wireframes/questions-page-tablet.png) |
+[Smartphone View](assets/readme//wireframes/questions-page-smartphone.png)
+
+### Results Page
+
+[Desktop View](assets/readme/wireframes/results-page-full-screen.png) |
+[Ipad/ Tablet View](assets/readme//wireframes/results-page-tablet.png) |
+[Smartphone View](assets/readme//wireframes/results-page-smartphone.png)
+
+---
+
+## Design
+
+The design was based on colours usually associated with rock and metal music, using black as the main colour, and yellow to be similar to lightning which is always used in rock imagery, and to also match the lightning bolt icons each side of the instructions title.
+
+### Colour Scheme
+
+![Palette](assets/readme/color-palette.png)
+
+The colours shown are black for background, yellow for instructions and, a lighter yellow for the answer option buttons, and a green and red for correct and incorrect answers to be shown to the user for confirmation. The website also uses white text (#ffffff) for text to contrast well against the black (#000000) background for reader useability.
+
+The colour palette was created at: [www.color-hex.com](https://www.color-hex.com).
+
+### Typography
+
+For fonts, I looked through text that would be bold and clear for the user. There we're some rock themed texts which didn't work for the design and decided to go with a simpler font for the users visibility.
+
+I used google fonts API to incorporate the desired font. The font I used was Libre Franklin which is viewable below:
+
+[Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin?query=libre+franklin)
+
+I used this with a backup of sans-serif incase of any loading issues for the user.
+
+### Images
+
+The Rock Gods Quiz logo was created by Bing Create AI by myself: [Click here to view bing create](https://www.bing.com/images/create?toWww=1&redig=BD16EF32B63245C0AFAF1F67B5192595).
+The background audience image was sourced from: [www.pexels.com/photo/people-at-concert-1105666](https://www.pexels.com/photo/people-at-concert-1105666/).
+
+### Accessibility
+
+- Title is added to the logo at the top of the screen to provide the text description "Go To Home Page (Start Quiz Again)" when clicked.
+- Alt labels been provided to the logo to provide information for screen readers.
+- Ticks and crosses have been added once an answer has been chosen to provide further confirmation to colour blind users if their ansswer was correct or not.
+- Bold white text chosen against a contrasting black background to provide clear visibility for the user.
+
+### Visual Effects
+
+#### Hover on buttons
+
+To make it clearer for the user on answer options, whilst hovering over the buttons, they change to a lighter saturation of the original colour and become wider giving a clearer confirmation of which button they are hovering over. This also makes it more engaging and more visual for the user.
+
+![Hovered answer options buttons](assets/readme/hovered-answer-option.png)
+
+#### Buttons
+
+- All answer option buttons once pressed will either turn green or red to show if the answer was correct or incorrect. This makes it more visually entertaining for the user as well as providing further clarification on if their answer was correct or not.
+
+![Green and red responive buttons](assets/readme/answers-green-red.png)
+
+- The start and see results buttons have a transition of 0.3s to make them more visually engaging and again to give a clear indication to the user they are hovering over the button.
+
+---
+
+# Features
+
+---
+
+## Existing Features
+
+- **Logo (Home Page)**
+
+![Logo](assets/images/logo.jpeg)
+![Logo - hover](assets/images/ReadMe/Logo-hover.png)
+
+The Logo, which is also a link to the home page, is present on all pages on the website. By clicking on this, the user can navigate back to the Home page at any moment of the game. This is explained in the introduction, but also when hovered over, the title appears to help the user understand that it is a link.
+
+- **Instruction Area**
+  The instructions is the first area the user see.s It draws them in the the scroll background and the Ministry of Magic logo.
+  It has a text input box so the user can enter their name. This will be used later for the results.
+  This instructions area makes it clear what the quiz is about. It lays out how many questions the user will recieve, how to answer the questions and make it clear that once they click they cannot change their answer. It states how to restart, but warns them that the questions may be different.
+  The start button is large and central, making it clear hwo to start the quiz.
+
+![Instructions page](assets/images/ReadMe/instruction-mobile.png)
+
+- **Question Area**
+
+This section contains the 10 questions. At the top, it is clear what question out of 10 they are on. The question is large. 4 options are provided. The buttons are spaced far enough appart to reduce the chance of accidental clicking.
+This is responsive, with the buttons turning into a 2 x 2 grid for larger devices.
+
+![Questions - mobile](assets/images/ReadMe/questions-mobile.png)
+![Questions - larger devices](assets/images/ReadMe/questions-larger.png)
+
+- **Correct / Incorrect Answers**
+
+When an answer has been selected, the buttons change colour to show which answer is correct and which are incorrect. The next button shows. There is no timer, as this allows the user to go onto the next question in their own time.
+
+![Answers- mobile](assets/images/ReadMe/answers-mobile.png)
+![Answers - larger devices](assets/images/ReadMe/answers-larger.png)
+
+- **Results Page**
+  This page pulls their name from the text input in the instructions, and places their name on the results page. This page tells the user what their score out of 10 was. The ministry of Magic logo is shown again to link it back to the instructions page. Based on their score, they are awarded an OWL grade:
+  0 = Troll
+  1-2 = Dreaful
+  3-4 = Poor
+  5-6 = Acceptable
+  7-8 = Exceeds Expectations
+  9-10 = Outstanding
+  An option to restart the quiz is diplayed. There is no timer, this allows the user to start again in their own time.
+
+![Results-mobile](assets/images/ReadMe/results-mobile.png)
+![Results-larger devices](assets/images/ReadMe/results-larger.png)
+
+## Feature Considerations
+
+### Sound
+
+At present no sound is used. It was considered having the theme tune as background music, but it was deemed not to add much to the experience and the image to mute the sound was out of place in the header, with the minimalistic logo.
+Sounds for getting the answer correct or wrong was considered, but no relevant sound could be found.
+
+---
+
+# Technologies
+
+- Languages: HTML, CSS, JavaScript
+- Git - For version control.
+- [GitHub](https://GitHub.com/) - To save and store the files for the website
+- [Gitpod](https://gitpod.io/) - IDE to develop the website
+- [Google Fonts](https://fonts.google.com/) - To import the fonts used on the wesbite
+- [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)- To troubleshoot, debugging, inspecting page's elements, testing responsiveness and solving issues with responsiveness and styling.
+- [Favicon.cc](https://www.favicon.cc/) - to create the website favicon.
+- Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse) - to access preformance and accesibility
+- Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/) - to check visuals for colour blind anomalies
+- [W3C HTML Markup Validator](https://validator.w3.org/) to validate HTML code.
+- [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
+- [Markdown Tables Generator](https://www.tablesgenerator.com/) to generate tables for the readme file.
+- Code Institute's Gitpod Template to generate the workspace for the project.
+
+---
 
 - **Club Ethos Section**
 

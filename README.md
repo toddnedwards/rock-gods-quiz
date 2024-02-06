@@ -1,21 +1,90 @@
 # Rock Gods Quiz - Javascript Project: Milestone 2
 
-Rock Gods Quiz is an interactive quiz where users answer 10 rock music based questions and are given a score out of 10. 20 questions have been created so the questions are varied for the user and not the same each time they take the quiz.
+Rock Gods Quiz is an interactive quiz where users answer 10 rock music based questions and are given a score out of 10. 20 questions have been created so the questions are varied for the user and not the same each time they take the quiz. The purpose of this dynamic website is for users to be able to play a quiz with questions based on rock music and musicians to test their knowledge.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+## Live project
 
-## Features
+View the live project [here](https://toddnedwards.github.io/rock-gods-quiz/)
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+![Responsive Design](assets/readme/responsive.png)
 
-### Existing Features
+# User Experience (UX)
 
-- **Navigation Bar**
+## User stories
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+### As a first time user
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+- I want to visit the website with a clear indication through images and text what the quiz is about.
+- I want to be able to start the game easily with clearly layed out instructions and an obvious button to press to start.
+- I want to see what the correct answer was once I have chosen my answer.
+- I want to see my score displayed at the end.
+- I want to know which question I am on as I progress through the quiz.
+- I want to learn through taking the quiz and be angaged with the websites questions and design.
+- I want the layout to be clear and be viewable across different devices.
+
+### As a returning user
+
+- I want to see a variety of questions so I'm not answering the same questions again.
+- I want to be able to play more than once and see an option to do so easily.
+
+## Structure
+
+The website starts with an instructions page which lays out the rules for the user and a start button. Once pressed, the start button will begin the quiz which will take the user through an array of 10 questions. Upon completion of answering the 10 questions, the user will be shown the results page giving them their score and a button that allows the user to restart the quiz. The logo on the top center of the website also takes the user back to the instructions and start button when clicked.
+
+## Start Page
+
+The start page shows the logo at the top of the page, followed by instructions for the user on how to play the game, followed by a start game button.
+
+### User Goal
+
+- To understand the layout of the website.
+- To understand from the instructions how to play the game
+- To be directed through clearly labelled buttons through the game
+- To want to play the game again
+
+### Website Goal
+
+- To create a simple and clear understanding of how to play the game
+- To make an enjoying and enticing game for the user to want to play
+- To clearly show details on how to play the game
+
+## Quiz Page
+
+The quiz page has the logo at the top of the page, followed by a numbered question and 4 answer options. The button options will be buttons giving the user the option to click their answer. Once clicked, a "next" button will appear to allow the user to move the next question. Once all 10 questions have been answered, the user will be presented with a different button to view their results.
+
+### User Goal
+
+- To be able to read the questions clearly and precisely
+- To see the questions are numbered to know which question out of 10 they are on
+- To be able to read the answer options clearly and precisely
+- To be able to click on their answer
+- To see if their answer was correct or not once chosen
+- To be given the option to go to the next question once they've answered the current question
+- To be able to see their results once all 10 questions have been answered
+
+### Website Goal
+
+- To make all writing clear and visible for the user
+- To make all answer options clickable so the user can choose their answer
+- To show the user a variety of questions so the same questions aren't being repeated for them
+- To allow the user to see the "next" and "see results" buttons when they've either chosen their answer or completed the quiz
+
+## Results Page
+
+The results page displays the logo at the top of the page, followed by a text box congratulating the user on their score, and showing the user what their score was. Different results brackets are given different text to reflect how well the user did. Eg. Scoring between 6 and 8 out of 10 displays "You know your rock!"
+
+### User Goal
+
+- To be able to see what they scored clearly and visibly
+- To be shown a message that reflects how well they did as feedback
+-
+
+### Website Goal
+
+- To make all writing clear and visible for the user
+- To make all answer options clickable so the user can choose their answer
+- To show the user a variety of questions so the same questions aren't being repeated for them
+- To allow the user to see the "next" and "see results" buttons when they've either chosen their answer or completed the quiz
 
 - **The landing page image**
 
@@ -140,3 +209,5 @@ Thankyou to Steve Whitehouse_bc on the slack community for helping with file pat
 
 for using title to show purpose of the logo for user to show them it will take them back the start of the website and restart the quiz:
 <https://www.w3schools.com/tags/tag_title.asp>
+
+tick and cross symbols copied and pasted from: https://www.i2symbol.com/symbols/check

@@ -10,6 +10,9 @@ const scoreText = document.getElementById('score-text');
 const resultsButton = document.getElementById('results-btn');
 const resultsContainer = document.getElementById('results-container');
 
+const TICK_ICON = '✓';
+const CROSS_ICON = '✗';
+
 let score = 0;
 let shuffledQuestions;
 let currentQuestionIndex;
@@ -55,6 +58,7 @@ function showQuestion(question) {
     });
 };
 
+
 function selectAnswer(e) {
     const selectedButton = e.target;
     const correct = selectedButton.dataset.correct;
@@ -64,27 +68,35 @@ function selectAnswer(e) {
     }
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct);
+        button.disabled = true;
     });
+
     if (currentQuestionIndex < 9) {
         nextButton.classList.remove('hide');
-        answerButtonsElement.classList.remove('answer-btn');
     } else {
         resultsButton.classList.remove('hide');
     }
 };
 
+
 function setStatusClass(element, correct) {
     clearStatusClass(element);
     if (correct) {
         element.classList.add('correct');
+        element.classList.remove('answer-btn');
+        element.innerText += ` ${TICK_ICON}`;
     } else {
         element.classList.add('incorrect');
+        element.classList.remove('answer-btn');
+        element.innerText += ` ${CROSS_ICON}`;
     }
 };
+
 
 function clearStatusClass(element) {
     element.classList.remove('correct');
     element.classList.remove('incorrect');
+
 }
 
 function resetState() {
@@ -92,6 +104,10 @@ function resetState() {
     while (answerButtonsElement.firstChild) {
         answerButtonsElement.removeChild(answerButtonsElement.firstChild);
     }
+    // const answerSymbol = document.querySelector(".answer-symbol");
+    // while (answerSymbol.firstChild) {
+    //     answerSymbol.removeChild(answerSymbol.firstChild);
+    // }
 };
 
 /* Results Section */

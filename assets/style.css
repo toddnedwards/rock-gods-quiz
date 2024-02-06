@@ -126,10 +126,30 @@ button {
 
 .correct {
     background-color: #008000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    width: 70%;
+    border-radius: 5px;
+    margin: 20px auto;
+    height: 50px;
+    transition: 0.3s;
 }
 
 .incorrect {
     background-color: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    width: 70%;
+    border-radius: 5px;
+    margin: 20px auto;
+    height: 50px;
+    transition: 0.3s;
 }
 
 .main-btn {
@@ -152,10 +172,20 @@ button {
 }
 
 #results-container {
+    color: white;
+    width: 400px;
+    margin: auto;
+    padding-top: 50px;
     text-align: center;
-    font-size: 50px;
-    color: #ffffff;
+    font-size: 20px;
 
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 25px;
 }
 
 /* Media Queries */
@@ -171,6 +201,7 @@ button {
 
     #instructions {
         padding-top: 20px;
+        width: 90%;
     }
 
     #container {
@@ -189,4 +220,8 @@ button {
     #scores {
         font-size: 25px;
     }
+}
+
+.tick {
+    color: green;
 }

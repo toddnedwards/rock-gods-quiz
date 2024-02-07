@@ -122,7 +122,7 @@ The design was based on colours usually associated with rock and metal music, us
 
 ### Colour Scheme
 
-![Palette](assets/readme/color-palette.png)
+![Palette](assets/readme/color-palette.webp)
 
 The colours shown are black for background, yellow for instructions and, a lighter yellow for the answer option buttons, and a green and red for correct and incorrect answers to be shown to the user for confirmation. The website also uses white text (#ffffff) for text to contrast well against the black (#000000) background for reader useability.
 
@@ -156,13 +156,13 @@ The background audience image was sourced from: [www.pexels.com/photo/people-at-
 
 To make it clearer for the user on answer options, whilst hovering over the buttons, they change to a lighter saturation of the original colour and become wider giving a clearer confirmation of which button they are hovering over. This also makes it more engaging and more visual for the user.
 
-![Hovered answer options buttons](assets/readme/hovered-answer-option.png)
+![Hovered answer options buttons](assets/readme/hovered-answer-option.webp)
 
 #### Buttons
 
 - All answer option buttons once pressed will either turn green or red to show if the answer was correct or incorrect. This makes it more visually entertaining for the user as well as providing further clarification on if their answer was correct or not.
 
-![Green and red responive buttons](assets/readme/answers-green-red.png)
+![Green and red responive buttons](assets/readme/answers-green-red.webp)
 
 - The start and see results buttons have a transition of 0.3s to make them more visually engaging and again to give a clear indication to the user they are hovering over the button.
 
@@ -177,52 +177,42 @@ To make it clearer for the user on answer options, whilst hovering over the butt
 - **Logo (Home Page)**
 
 ![Logo](assets/images/logo.jpeg)
-![Logo - hover](assets/images/ReadMe/Logo-hover.png)
+![Logo - alt text on hover](assets/readme/logo-alt-text.png)
 
-The Logo, which is also a link to the home page, is present on all pages on the website. By clicking on this, the user can navigate back to the Home page at any moment of the game. This is explained in the introduction, but also when hovered over, the title appears to help the user understand that it is a link.
+The logo is present on all pages of the website and acts as a hyperlink to go back to the start of the quiz and back to the first home page. When hovered over it also provides an alt text to help users see its purpose rather than just assuming that it is clickable.
 
-- **Instruction Area**
-  The instructions is the first area the user see.s It draws them in the the scroll background and the Ministry of Magic logo.
-  It has a text input box so the user can enter their name. This will be used later for the results.
-  This instructions area makes it clear what the quiz is about. It lays out how many questions the user will recieve, how to answer the questions and make it clear that once they click they cannot change their answer. It states how to restart, but warns them that the questions may be different.
-  The start button is large and central, making it clear hwo to start the quiz.
+- **Start Page/ Instructions**
+  The start page is the first page to appear for the user. It includes a background image of an audience which appears constantly across all 3 pages. It shows 3 instruction bullet points followed by a start button. The start button on hover expands to make it more obvious to the user that it is interactive and also makes the page more engaging for the user.
 
-![Instructions page](assets/images/ReadMe/instruction-mobile.png)
+![Start Page](assets/readme/start-page.png)
 
-- **Question Area**
+- **Questions/ Quiz Area**
 
-This section contains the 10 questions. At the top, it is clear what question out of 10 they are on. The question is large. 4 options are provided. The buttons are spaced far enough appart to reduce the chance of accidental clicking.
-This is responsive, with the buttons turning into a 2 x 2 grid for larger devices.
+This section includes 10 questions for the user to go through. It is supplied with a question which is numbered so the user knows how far through the quiz they are and how many questions they have left. There are 4 answer options buttons. When they are hovered over, they expand in size using a transition of 0.3 seconds. When hovered over, they also change to a darker saturation of yellow to make it more obvious to the user which one they are hovering over.
 
-![Questions - mobile](assets/images/ReadMe/questions-mobile.png)
-![Questions - larger devices](assets/images/ReadMe/questions-larger.png)
+Once the user has chosen their answer, the answer options will become disabled, stopping the user from choosing a different answer or continuing to press a button to make the score go artificially higher. The buttons will red if they are incorrect and the correct button will turn green. The incorrect options will also show an 'x' symbol next the answer option to visually show they are incorrect for colour blind users. The correct option also shows a '✓' symbol to show the answer is correct for colour blind users who can't see the colour change of green and red.
 
-- **Correct / Incorrect Answers**
-
-When an answer has been selected, the buttons change colour to show which answer is correct and which are incorrect. The next button shows. There is no timer, as this allows the user to go onto the next question in their own time.
-
-![Answers- mobile](assets/images/ReadMe/answers-mobile.png)
-![Answers - larger devices](assets/images/ReadMe/answers-larger.png)
+![Questions/ Quiz Page](assets/readme/quiz-page.png)
 
 - **Results Page**
-  This page pulls their name from the text input in the instructions, and places their name on the results page. This page tells the user what their score out of 10 was. The ministry of Magic logo is shown again to link it back to the instructions page. Based on their score, they are awarded an OWL grade:
-  0 = Troll
-  1-2 = Dreaful
-  3-4 = Poor
-  5-6 = Acceptable
-  7-8 = Exceeds Expectations
-  9-10 = Outstanding
-  An option to restart the quiz is diplayed. There is no timer, this allows the user to start again in their own time.
 
-![Results-mobile](assets/images/ReadMe/results-mobile.png)
-![Results-larger devices](assets/images/ReadMe/results-larger.png)
+On the results page the user is told "congratulations" and is shown their score out of 10. Depending on their score, they will be shown a different phrase that corresponds with their score as shown below:
+
+- if the score is more than 8, the user is shown "You are a rock god!"
+- if the score is more than 6 but less than 8, the user is shown "You know your rock!"
+- if the score is more than 4 but less than 6, the user is shown "You're on your way to rock stardom!"
+- if the score is more than 2 but less than 4, the user is shown "You've got some practicing to do!"
+- if the score is more than 0 but less than 2, the user is shown "Just put the guitar down"
+
+The results page is also presented with a button that says 'try again' which will take the user back to the questions page with the score reset. The button also expands on hover to keep the page engaging and interactive, and to also make it clear to the user that they are hovering over that button.
+
+![Results-page](assets/readme/results-page.png)
 
 ## Feature Considerations
 
 ### Sound
 
-At present no sound is used. It was considered having the theme tune as background music, but it was deemed not to add much to the experience and the image to mute the sound was out of place in the header, with the minimalistic logo.
-Sounds for getting the answer correct or wrong was considered, but no relevant sound could be found.
+I would like to add sound to the project as a touch to stay with the theme of music overall. I decided not to include it as it caused complications and needed to create other elements to give the user control of if the music was muted etc. I would also consider having one long piece of music that would be on loop, and would change when the user pressed a button, such as a guitar riff when the start button is played, and maybe a crowd cheer when the user chooses a correct answer and an audience booing when they choose a wrong answer.
 
 ---
 
@@ -230,135 +220,174 @@ Sounds for getting the answer correct or wrong was considered, but no relevant s
 
 - Languages: HTML, CSS, JavaScript
 - Git - For version control.
-- [GitHub](https://GitHub.com/) - To save and store the files for the website
-- [Gitpod](https://gitpod.io/) - IDE to develop the website
-- [Google Fonts](https://fonts.google.com/) - To import the fonts used on the wesbite
-- [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)- To troubleshoot, debugging, inspecting page's elements, testing responsiveness and solving issues with responsiveness and styling.
-- [Favicon.cc](https://www.favicon.cc/) - to create the website favicon.
-- Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse) - to access preformance and accesibility
-- Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/) - to check visuals for colour blind anomalies
+- [GitHub](https://GitHub.com/) - To save and store the files as repositories for the website.
+- [Codeanywhere](https://app.codeanywhere.com/) - IDE to develop the website
+- [Visual Code Studios](https://code.visualstudio.com/) - IDE I initially used to develop the website whilst having no internet access
+- [Color Converter](https://htmlcolors.com/color-converter) - To convert hex colours into HSLA format to use saturation on buttons.
+- [Bing's Create AI image generator](https://www.bing.com/images/create?toWww=1&redig=BD16EF32B63245C0AFAF1F67B5192595) - To create the logo.
+- [Google Fonts](https://fonts.google.com/) - To import fonts that we're used on the website
+- [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)- To troubleshoot css flaws and try different design options, debugging with console, checking responsiveness and checking overall web experience with lighthouse.
+- [Favicon.cc](https://www.favicon.cc/) - Used to create the website favicon.
+- Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse) - To see websites accessibility and performance.
 - [W3C HTML Markup Validator](https://validator.w3.org/) to validate HTML code.
 - [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
-- [Markdown Tables Generator](https://www.tablesgenerator.com/) to generate tables for the readme file.
 - Code Institute's Gitpod Template to generate the workspace for the project.
 
 ---
 
-- **Club Ethos Section**
+# Testing
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+Testing has been carried out since the start of the build, using google chrome's dev tools and codeanywhere to highlight faults in coding. A logical plan was written out beforehand of the project so I knew how I would then structure it. The logical plan is included in my user stories below. I also tested the site on different browsers including firefox and safari as well as testing on an ipad and samsung galaxy s21.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+# User Stories
 
-- **Meetup Times section**
+| Expectations                                             | realisations                                                                                                                                                                                                                              |
+| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Understand the purpose of the website and how to use it. | The first page shows the logo which gives an image of what the subject is (rock music), it gives instructions to what the game is and what the rules are.                                                                                 |
+| To be able to play the game easily                       | The question and question number is clearly started on the page. The user is given 4 possible answers and is prompted by the hover class to choose an answer.                                                                             |
+| To know what the correct answer to the game is.          | After the answer is selected, the correct answer button will turn green and the incorrect answers will turn red. A corresponding tick or cross will also appear to give clearer indication to if the answer is correct or not.            |
+| To know my score.                                        | The user is given their score once they finish all 10 questions and is prompted to go to the results page. The results page then tells the user what their score was out of 10.                                                           |
+| To be able to navigate easily.                           | When the user clicks the logo displayed on each page, it returns them to the instructions page. Alt text on the logo also makes this clearer. On the results page, a try again button is shown to give the user the option to play again. |
+| I want to play again once i've completed the game        | On the results page, the user is presented with another button titled 'try again' to restart the quiz and reset the score.                                                                                                                |
+| I want to see the information clearly                    | Alt text has been supplied for the logo, I have used dark colours with white text for the main parts, apart from black text on the answer options for better contrast so the user can see them clearly.                                   |
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-  - This section will be updated as these times change to keep the user up to date.
+# Solved issues
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+The following issues arose and were solved through testing, W3 Schools resources, and peer advice.
 
-- **The Footer**
+- The background image source path wasn't working - Steve Whitehouse_bc in the slack community helped me change the path to ../ instead starting with a / for github formatting.
+- For using title to show purpose of the logo for the user to show them it will take them back the start of the website and restart the quiz: https://www.w3schools.com/tags/tag_title.asp
+- I had a spelling error in one of the functions i was calling in startQuiz(), I resolved this by running console in google chrome and it pointing out to me which function was not specified. This helped me find the mispelling and change it.
+- I couldn't work out how to disable a button in javascript. I used this advice from W3 schools: https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp
+- Initial testing on lighthouse raised that images were slowing down performance - images cropped and resized to fit space. Images converted to webp.
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+## Automated Testing
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+1. **[W3 Markup Validation](https://validator.w3.org/) - HTML Validation**
 
-- **Gallery**
+All pages were run through HTML Validator. No errors were detected.
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+- [Home Page HTML](assets/images/readme/IndexHTML.png)
+- [About Us Page HTML](assets/images/readme/AboutUSHTML.png)
+- [Gallery Page HTML](assets/images/readme/GalleryHTML.png)
+- [Sign Up HTML](assets/images/readme/SignupHTML.png)
+- [Thank You Page HTML](assets/images/readme/thankyouHTML.png)
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+1. **[W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation**
 
-- **The Sign Up Page**
+CSS Stylesheet was run through CSS Validator. No errors were detected.
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+- [style.css CSS](assets/images/readme/CSSvalidation.png)
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+3. **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)**
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+**Home Page**
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Mobile
 
-### Features Left to Implement
+![Mobile Home](assets/images/readme/lighthout-index-mobile.png)
 
-- Another feature idea
+Desktop
 
-## Testing
+![Desktop Home](assets/images/readme/lighthout-index-desktop.png)
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+**About Us Page**
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Mobile
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+![Mobile Ph](assets/images/readme/lighthout-about-mobile.png)
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Desktop
 
-### Validator Testing
+![Desktop Ph](assets/images/readme/lighthout-gallery-desktop.png)
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+**Gallery Page**
 
-### Unfixed Bugs
+Mobile
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+![Mobile Meetups](assets/images/readme/lighthout-gallery-mobile.png)
 
-## Deployment
+Desktop
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+![Desktop Meetups](assets/images/readme/lighthout-gallery-desktop.png)
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+**Signup Page**
 
-The live link can be found here - <https://code-institute-org.github.io/love-running-2.0/index.html>
+Mobile
 
-## Credits
+![Mobile Signup](assets/images/readme/lighthout-sign-mobile.png)
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+Desktop
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+![Desktop Signup](assets/images/readme/lighthout-sign-desktop.png)
 
-### Content
+**Thank-you Page**
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+Mobile
 
-### Media
+![Mobile Signup](assets/images/readme/lighthout-thank-mobile.png)
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+Desktop
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+![Desktop Signup](assets/images/readme/lighthouse-thank-desktop.png)
 
-## Other General Project Advice
+---
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
+# Deployment
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write a Git Commit Message
+This project was deployed to GitHub pages. The steps to deploy are as follows:
 
-  - Make sure to keep the messages in the imperative mood
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, Project 2 Quiz
+3. Click on the Settings from the Repositories sub-headings.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source heading, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save.
+7. A message that the website is ready to be deployed will appear. Refresh the page and the link to the deployed site will be available.
+8. Your live Github Pages site is now deployed at the URL shown.
 
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
+The live link can be found [here](https://emilycheatham.github.io/p1_yoga_for_you/).
 
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
+## How to run this project Locally
 
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+- **Clone the repository**
 
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
+1. Log in (or sign up) to GitHub.
+2. Navigate to the GitHub Repository for this project, emilycheatham/Project2Quiz
+3. Click the code drop-down menu. Select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open a terminal in the directory of your choice, type 'git clone' and paste the link from step 3.
+5. A clone of the repository will now be created on your machine.
 
-Thankyou to Steve Whitehouse_bc on the slack community for helping with file path for my background image created on the style sheet (style.css line 8).
+---
+
+# Credits
+
+## Code
+
+- Tutorials from [Code Institute's](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/) Love Running Project were followed for the Love Project. This was used as a base structure for the design.
+- Hover over images hover effect developed by following [Web Dev Simplifier](https://www.youtube.com/watch?v=tF3RE5CGt9U)
+
+## Content
+
+Content for the website was written by the owner Emily Cheatham
+
+Readm.md file was created based on the structure of [Sofing](https://github.com/oks-erm/sofing/blob/main/README.md) and [Bully Book Club Wesbite](https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md#Deployment)
+
+## Media
+
+- All images were taken from [pexels](https://www.pexels.com/).
+
+## Acknowledgements
+
+I would like to thank my mentor, Ronan McClelland, for his valuable guidance and support through the project.
+
+I would like to thank the Slack community for answering questions before I even had them.
+
+---
+
+<!-- Thankyou to Steve Whitehouse_bc on the slack community for helping with file path for my background image created on the style sheet (style.css line 8).
 
 for using title to show purpose of the logo for user to show them it will take them back the start of the website and restart the quiz:
 <https://www.w3schools.com/tags/tag_title.asp>
 
-tick and cross symbols copied and pasted from: https://www.i2symbol.com/symbols/check
+tick and cross symbols copied and pasted from: https://www.i2symbol.com/symbols/check -->

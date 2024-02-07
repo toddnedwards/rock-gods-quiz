@@ -268,18 +268,19 @@ The following issues arose and were solved through testing, W3 Schools resources
 All pages were run through HTML Validator. No errors were detected.
 
 - [Home Page HTML](assets/images/readme/IndexHTML.png)
-- [About Us Page HTML](assets/images/readme/AboutUSHTML.png)
-- [Gallery Page HTML](assets/images/readme/GalleryHTML.png)
-- [Sign Up HTML](assets/images/readme/SignupHTML.png)
-- [Thank You Page HTML](assets/images/readme/thankyouHTML.png)
 
 1. **[W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation**
 
 CSS Stylesheet was run through CSS Validator. No errors were detected.
 
-- [style.css CSS](assets/images/readme/CSSvalidation.png)
+- [style.css CSS](assets/images/readme/css-validator.png)
 
 3. **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)**
+
+Google lighthouse gave original a performance of 91 in desktop view. I improved this by changing the size of the logo image down to 300x300 pixels.
+In SEO it also suggested adding a meta description which I added, using the souce information from: https://www.w3schools.com/tags/tag_meta.asp.
+
+It also suggested I downsize the audience background image, which I downsized to 1920x1280. This was to keep the proportion of the image, and using the resource of what size to use from [google search](https://www.google.com/search?q=what+pixel+size+for+background+image&sca_esv=ce89b3ae00b5c8b0&rlz=1C5CHFA_enGB1022GB1024&sxsrf=ACQVn08oS4NQOjTiUjnv7Q_AbfJU3sV4HQ%3A1707307031636&ei=F3DDZe-oJqyN9u8Pqbuk6AE&oq=what+pixel+size+for+background+&gs_lp=Egxnd3Mtd2l6LXNlcnAiH3doYXQgcGl4ZWwgc2l6ZSBmb3IgYmFja2dyb3VuZCAqAggAMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRifBUi5GFCvB1jHD3ABeAGQAQCYAZIBoAH8B6oBAzkuMrgBA8gBAPgBAcICChAAGEcY1gQYsAPCAgYQABgWGB7CAgsQABiABBiKBRiGA8ICBxAhGAoYoAHiAwQYACBBiAYBkAYI&sclient=gws-wiz-serp).
 
 **Home Page**
 
@@ -291,54 +292,13 @@ Desktop
 
 ![Desktop Home](assets/images/readme/lighthout-index-desktop.png)
 
-**About Us Page**
-
-Mobile
-
-![Mobile Ph](assets/images/readme/lighthout-about-mobile.png)
-
-Desktop
-
-![Desktop Ph](assets/images/readme/lighthout-gallery-desktop.png)
-
-**Gallery Page**
-
-Mobile
-
-![Mobile Meetups](assets/images/readme/lighthout-gallery-mobile.png)
-
-Desktop
-
-![Desktop Meetups](assets/images/readme/lighthout-gallery-desktop.png)
-
-**Signup Page**
-
-Mobile
-
-![Mobile Signup](assets/images/readme/lighthout-sign-mobile.png)
-
-Desktop
-
-![Desktop Signup](assets/images/readme/lighthout-sign-desktop.png)
-
-**Thank-you Page**
-
-Mobile
-
-![Mobile Signup](assets/images/readme/lighthout-thank-mobile.png)
-
-Desktop
-
-![Desktop Signup](assets/images/readme/lighthouse-thank-desktop.png)
-
----
 
 # Deployment
 
 This project was deployed to GitHub pages. The steps to deploy are as follows:
 
 1. Log in (or sign up) to Github.
-2. Find the repository for this project, Project 2 Quiz
+2. Find the repository for this project, rock gods quiz.
 3. Click on the Settings from the Repositories sub-headings.
 4. Click on the Pages link in the left hand side navigation bar.
 5. In the Source heading, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
@@ -346,17 +306,17 @@ This project was deployed to GitHub pages. The steps to deploy are as follows:
 7. A message that the website is ready to be deployed will appear. Refresh the page and the link to the deployed site will be available.
 8. Your live Github Pages site is now deployed at the URL shown.
 
-The live link can be found [here](https://emilycheatham.github.io/p1_yoga_for_you/).
+The live link can be found [here](https://toddnedwards.github.io/rock-gods-quiz/).
 
 ## How to run this project Locally
 
 - **Clone the repository**
 
 1. Log in (or sign up) to GitHub.
-2. Navigate to the GitHub Repository for this project, emilycheatham/Project2Quiz
-3. Click the code drop-down menu. Select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4. Open a terminal in the directory of your choice, type 'git clone' and paste the link from step 3.
-5. A clone of the repository will now be created on your machine.
+2. Navigate to the GitHub Repository for this project, toddnedwards/rock-gods-quiz.
+1. Click the code drop-down menu. Select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+2. Open a terminal in the directory of your choice, type 'git clone' and paste the link from step 3.
+3. A clone of the repository will now be created on your machine.
 
 ---
 
@@ -364,30 +324,31 @@ The live link can be found [here](https://emilycheatham.github.io/p1_yoga_for_yo
 
 ## Code
 
-- Tutorials from [Code Institute's](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/) Love Running Project were followed for the Love Project. This was used as a base structure for the design.
-- Hover over images hover effect developed by following [Web Dev Simplifier](https://www.youtube.com/watch?v=tF3RE5CGt9U)
+- Tutorials from Code Institute's resources of javascript.
+- Quiz game tutorial tips I used for setStatusClass to change colours of correct and incorrect answer's from [GreatStack](https://www.youtube.com/watch?v=PBcqGxrr9g8)
+- Javascript tutorials from [freeCodeCamp.org](https://www.youtube.com/watch?v=ec8vSKJuZTk&t=788s)
+- Tick and cross symbols copied and pasted from: https://www.i2symbol.com/symbols/check.
+- Code stated above with hyperlinks used from [W3 Schools](https://www.w3schools.com/).
 
 ## Content
 
-Content for the website was written by the owner Emily Cheatham
+All content for this website has been written and coded by Todd Edwards
 
-Readm.md file was created based on the structure of [Sofing](https://github.com/oks-erm/sofing/blob/main/README.md) and [Bully Book Club Wesbite](https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md#Deployment)
+Readme.md file was created based on the structure of [Code Institute readme template](https://github.com/Code-Institute-Solutions/readme-template) and [Emily Cheatham's structure](https://github.com/emilycheatham/Project2Quiz/blob/main/README.md)
 
 ## Media
 
-- All images were taken from [pexels](https://www.pexels.com/).
+- Background image of audience was taken from [pexels](https://www.pexels.com/).
+- Logo for the website was created by an AI creator from [Bing Creator](https://www.bing.com/images/create?toWww=1&redig=BD16EF32B63245C0AFAF1F67B5192595)
 
 ## Acknowledgements
 
-I would like to thank my mentor, Ronan McClelland, for his valuable guidance and support through the project.
+I would like to thank my mentor, Martina Terlevic for their support in finalising my project. 
 
-I would like to thank the Slack community for answering questions before I even had them.
+Thankyou to Steve Whitehouse_bc on the slack community for helping with file path for my background image created on the style sheet (style.css line 8).
 
----
+Thankyou for ndsurgenor in the slack community for suggesting removing the hover effect after an answer has been chosen and to adding a visual tick and cross to make the answer clearer for colour blind users.
 
-<!-- Thankyou to Steve Whitehouse_bc on the slack community for helping with file path for my background image created on the style sheet (style.css line 8).
+Thankyou for Ed Denham_alum in the slack community for reminding me to remove console.logs for providing the current score in console and also stating that the game has started (which is something I originally added to test that the function was running). He also pointed out to me that due to the answer buttons not being disabled on clicking, they could be manipulated and the score could keep increasing on answering. This prompted me to find out the button disable through the W3 schools resource and remove that option for the user.
 
-for using title to show purpose of the logo for user to show them it will take them back the start of the website and restart the quiz:
-<https://www.w3schools.com/tags/tag_title.asp>
-
-tick and cross symbols copied and pasted from: https://www.i2symbol.com/symbols/check -->
+A huge thankyou to the code institute slack community for coding problems that I had by searching for the problems I incurred.

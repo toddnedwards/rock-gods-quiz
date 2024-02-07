@@ -19,7 +19,7 @@ let currentQuestionIndex;
 
 /* Event listeners */
 
-startButton.addEventListener('click', startQuiz, console.log("start button pressed"));
+startButton.addEventListener('click', startQuiz);
 
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
@@ -64,7 +64,6 @@ function selectAnswer(e) {
     const correct = selectedButton.dataset.correct;
     if (correct) {
         score++;
-        console.log("score is", score);
     }
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct);

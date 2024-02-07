@@ -287,11 +287,11 @@ It also suggested I downsize the audience background image, which I downsized to
 
 Mobile
 
-![Mobile Home](assets/images/readme/lighthout-index-mobile.png)
+![Mobile Home](assets/images/readme/lighthouse-mobile.webp)
 
 Desktop
 
-![Desktop Home](assets/images/readme/lighthout-index-desktop.png)
+![Desktop Home](assets/images/readme/lighthouse-desktop.webp)
 
 
 # Deployment

@@ -156,13 +156,13 @@ The background audience image was sourced from: [www.pexels.com/photo/people-at-
 
 To make it clearer for the user on answer options, whilst hovering over the buttons, they change to a lighter saturation of the original colour and become wider giving a clearer confirmation of which button they are hovering over. This also makes it more engaging and more visual for the user.
 
-![Hovered answer options buttons](assets/images/readme/hovered-answer-option.png)
+![Hovered answer options buttons](assets/images/readme/hovered-answer-option.webp)
 
 #### Buttons
 
 - All answer option buttons once pressed will either turn green or red to show if the answer was correct or incorrect. This makes it more visually entertaining for the user as well as providing further clarification on if their answer was correct or not.
 
-![Green and red responive buttons](assets/images/readme/answers-green-red.png)
+![Green and red responive buttons](assets/images/readme/answers-green-red.webp)
 
 - The start and see results buttons have a transition of 0.3s to make them more visually engaging and again to give a clear indication to the user they are hovering over the button.
 
@@ -176,7 +176,7 @@ To make it clearer for the user on answer options, whilst hovering over the butt
 
 - **Logo (Home Page)**
 
-![Logo](assets/images/logo.jpeg)
+![Logo](assets/images/logo.webp)
 ![Logo - alt text on hover](assets/images/readme/logo-alt-text.jpg)
 
 The logo is present on all pages of the website and acts as a hyperlink to go back to the start of the quiz and back to the first home page. When hovered over it also provides an alt text to help users see its purpose rather than just assuming that it is clickable.
@@ -231,6 +231,7 @@ I would like to add sound to the project as a touch to stay with the theme of mu
 - Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse) - To see websites accessibility and performance.
 - [W3C HTML Markup Validator](https://validator.w3.org/) to validate HTML code.
 - [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
+- [Image Tool+](https://apps.apple.com/us/app/image-tool/id1524216218?mt=12) for reformatting and resizing images.
 - Code Institute's Gitpod Template to generate the workspace for the project.
 
 ---

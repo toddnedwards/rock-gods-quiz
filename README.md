@@ -6,7 +6,7 @@ Rock Gods Quiz is an interactive quiz where users answer 10 rock music based que
 
 View the live project [here](https://toddnedwards.github.io/rock-gods-quiz/)
 
-![Responsive Design](assets/readme/device-mockup.png)
+![Responsive Design](assets/images/readme/device-mockup.png)
 
 # User Experience (UX)
 
@@ -98,21 +98,21 @@ The results page displays the logo at the top of the page, followed by a text bo
 
 ### Start Page
 
-[Desktop View](assets/readme/wireframes/start-page-full-screen.png) |
-[Ipad/ Tablet View](assets/readme//wireframes/start-page-tablet.png) |
-[Smartphone View](assets/readme//wireframes/start-page-smartphone.png)
+[Desktop View](assets/images/readme/wireframes/start-page-full-screen.png) |
+[Ipad/ Tablet View](assets/images/readme//wireframes/start-page-tablet.png) |
+[Smartphone View](assets/images/readme//wireframes/start-page-smartphone.png)
 
 ### Questions Page
 
-[Desktop View](assets/readme/wireframes/quiz-page-full-screen.png) |
-[Ipad/ Tablet View](assets/readme//wireframes/questions-page-tablet.png) |
-[Smartphone View](assets/readme//wireframes/questions-page-smartphone.png)
+[Desktop View](assets/images/readme/wireframes/quiz-page-full-screen.png) |
+[Ipad/ Tablet View](assets/images/readme//wireframes/questions-page-tablet.png) |
+[Smartphone View](assets/images/readme//wireframes/questions-page-smartphone.png)
 
 ### Results Page
 
-[Desktop View](assets/readme/wireframes/results-page-full-screen.png) |
-[Ipad/ Tablet View](assets/readme//wireframes/results-page-tablet.png) |
-[Smartphone View](assets/readme//wireframes/results-page-smartphone.png)
+[Desktop View](assets/images/readme/wireframes/results-page-full-screen.png) |
+[Ipad/ Tablet View](assets/images/readme//wireframes/results-page-tablet.png) |
+[Smartphone View](assets/images/readme//wireframes/results-page-smartphone.png)
 
 ---
 
@@ -122,7 +122,7 @@ The design was based on colours usually associated with rock and metal music, us
 
 ### Colour Scheme
 
-![Palette](assets/readme/color-palette.webp)
+![Palette](assets/images/readme/color-palette.jpg)
 
 The colours shown are black for background, yellow for instructions and, a lighter yellow for the answer option buttons, and a green and red for correct and incorrect answers to be shown to the user for confirmation. The website also uses white text (#ffffff) for text to contrast well against the black (#000000) background for reader useability.
 
@@ -156,13 +156,13 @@ The background audience image was sourced from: [www.pexels.com/photo/people-at-
 
 To make it clearer for the user on answer options, whilst hovering over the buttons, they change to a lighter saturation of the original colour and become wider giving a clearer confirmation of which button they are hovering over. This also makes it more engaging and more visual for the user.
 
-![Hovered answer options buttons](assets/readme/hovered-answer-option.webp)
+![Hovered answer options buttons](assets/images/readme/hovered-answer-option.png)
 
 #### Buttons
 
 - All answer option buttons once pressed will either turn green or red to show if the answer was correct or incorrect. This makes it more visually entertaining for the user as well as providing further clarification on if their answer was correct or not.
 
-![Green and red responive buttons](assets/readme/answers-green-red.webp)
+![Green and red responive buttons](assets/images/readme/answers-green-red.png)
 
 - The start and see results buttons have a transition of 0.3s to make them more visually engaging and again to give a clear indication to the user they are hovering over the button.
 
@@ -177,14 +177,14 @@ To make it clearer for the user on answer options, whilst hovering over the butt
 - **Logo (Home Page)**
 
 ![Logo](assets/images/logo.jpeg)
-![Logo - alt text on hover](assets/readme/logo-alt-text.png)
+![Logo - alt text on hover](assets/images/readme/logo-alt-text.jpg)
 
 The logo is present on all pages of the website and acts as a hyperlink to go back to the start of the quiz and back to the first home page. When hovered over it also provides an alt text to help users see its purpose rather than just assuming that it is clickable.
 
 - **Start Page/ Instructions**
   The start page is the first page to appear for the user. It includes a background image of an audience which appears constantly across all 3 pages. It shows 3 instruction bullet points followed by a start button. The start button on hover expands to make it more obvious to the user that it is interactive and also makes the page more engaging for the user.
 
-![Start Page](assets/readme/start-page.png)
+![Start Page](assets/images/readme/start-page.jpg)
 
 - **Questions/ Quiz Area**
 
@@ -192,7 +192,7 @@ This section includes 10 questions for the user to go through. It is supplied wi
 
 Once the user has chosen their answer, the answer options will become disabled, stopping the user from choosing a different answer or continuing to press a button to make the score go artificially higher. The buttons will red if they are incorrect and the correct button will turn green. The incorrect options will also show an 'x' symbol next the answer option to visually show they are incorrect for colour blind users. The correct option also shows a '✓' symbol to show the answer is correct for colour blind users who can't see the colour change of green and red.
 
-![Questions/ Quiz Page](assets/readme/quiz-page.png)
+![Questions/ Quiz Page](assets/images/readme/quiz-page.jpg)
 
 - **Results Page**
 
@@ -206,7 +206,7 @@ On the results page the user is told "congratulations" and is shown their score 
 
 The results page is also presented with a button that says 'try again' which will take the user back to the questions page with the score reset. The button also expands on hover to keep the page engaging and interactive, and to also make it clear to the user that they are hovering over that button.
 
-![Results-page](assets/readme/results-page.png)
+![Results-page](assets/images/readme/results-page.jpg)
 
 ## Feature Considerations
 
@@ -263,24 +263,24 @@ The following issues arose and were solved through testing, W3 Schools resources
 
 ## Automated Testing
 
-1. **[W3 Markup Validation](https://validator.w3.org/) - HTML Validation**
+### [W3 Markup Validation](https://validator.w3.org/) - HTML Validation
 
 All pages were run through HTML Validator. No errors were detected.
 
-- [Home Page HTML](assets/images/readme/IndexHTML.png)
+![Home Page HTML](assets/images/readme/html-validator.jpg)
 
-1. **[W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation**
+### [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation
 
 CSS Stylesheet was run through CSS Validator. No errors were detected.
 
-- [style.css CSS](assets/images/readme/css-validator.png)
+![style.css CSS](assets/images/readme/css-validator.jpg)
 
-3. **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)**
+### [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)**
 
 Google lighthouse gave original a performance of 91 in desktop view. I improved this by changing the size of the logo image down to 300x300 pixels.
 In SEO it also suggested adding a meta description which I added, using the souce information from: https://www.w3schools.com/tags/tag_meta.asp.
 
-It also suggested I downsize the audience background image, which I downsized to 1920x1280. This was to keep the proportion of the image, and using the resource of what size to use from [google search](https://www.google.com/search?q=what+pixel+size+for+background+image&sca_esv=ce89b3ae00b5c8b0&rlz=1C5CHFA_enGB1022GB1024&sxsrf=ACQVn08oS4NQOjTiUjnv7Q_AbfJU3sV4HQ%3A1707307031636&ei=F3DDZe-oJqyN9u8Pqbuk6AE&oq=what+pixel+size+for+background+&gs_lp=Egxnd3Mtd2l6LXNlcnAiH3doYXQgcGl4ZWwgc2l6ZSBmb3IgYmFja2dyb3VuZCAqAggAMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRifBUi5GFCvB1jHD3ABeAGQAQCYAZIBoAH8B6oBAzkuMrgBA8gBAPgBAcICChAAGEcY1gQYsAPCAgYQABgWGB7CAgsQABiABBiKBRiGA8ICBxAhGAoYoAHiAwQYACBBiAYBkAYI&sclient=gws-wiz-serp).
+It also suggested I downsize the audience background image, which I downsized to 1200 × 800 pixels. This was to keep the proportion of the image, and using the resource of what size to use from [google search](https://www.google.com/search?q=what+pixel+size+for+background+image&sca_esv=ce89b3ae00b5c8b0&rlz=1C5CHFA_enGB1022GB1024&sxsrf=ACQVn08oS4NQOjTiUjnv7Q_AbfJU3sV4HQ%3A1707307031636&ei=F3DDZe-oJqyN9u8Pqbuk6AE&oq=what+pixel+size+for+background+&gs_lp=Egxnd3Mtd2l6LXNlcnAiH3doYXQgcGl4ZWwgc2l6ZSBmb3IgYmFja2dyb3VuZCAqAggAMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRifBUi5GFCvB1jHD3ABeAGQAQCYAZIBoAH8B6oBAzkuMrgBA8gBAPgBAcICChAAGEcY1gQYsAPCAgYQABgWGB7CAgsQABiABBiKBRiGA8ICBxAhGAoYoAHiAwQYACBBiAYBkAYI&sclient=gws-wiz-serp).
 
 **Home Page**
 

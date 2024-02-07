@@ -30,17 +30,17 @@ nextButton.addEventListener('click', () => {
 
 function startQuiz() {
     startButton.classList.add('hide');
-    shuffledQuestions = questions.sort(() => Math.random() - .5);
+    shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
     questionContainerElement.classList.remove('hide');
     instructionsElement.classList.add('hide');
     setNextQuestion();
-};
+}
 
 function setNextQuestion() {
     resetState();
     showQuestion(shuffledQuestions[currentQuestionIndex]);
-};
+}
 
 function showQuestion(question) {
     const currentQuestionNumber = document.getElementById('question-number');
@@ -56,7 +56,7 @@ function showQuestion(question) {
         button.addEventListener('click', selectAnswer);
         answerButtonsElement.appendChild(button);
     });
-};
+}
 
 
 function selectAnswer(e) {
@@ -75,7 +75,7 @@ function selectAnswer(e) {
     } else {
         resultsButton.classList.remove('hide');
     }
-};
+}
 
 
 function setStatusClass(element, correct) {
@@ -89,7 +89,7 @@ function setStatusClass(element, correct) {
         element.classList.remove('answer-btn');
         element.innerText += ` ${CROSS_ICON}`;
     }
-};
+}
 
 
 function clearStatusClass(element) {
@@ -103,11 +103,8 @@ function resetState() {
     while (answerButtonsElement.firstChild) {
         answerButtonsElement.removeChild(answerButtonsElement.firstChild);
     }
-    // const answerSymbol = document.querySelector(".answer-symbol");
-    // while (answerSymbol.firstChild) {
-    //     answerSymbol.removeChild(answerSymbol.firstChild);
-    // }
-};
+
+}
 
 /* Results Section */
 
@@ -140,7 +137,7 @@ function showResults() {
     else {
         scoreText.innerText = 'Please try again';
     }
-};
+}
 
 /* Restart Game */
 

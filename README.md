@@ -276,6 +276,10 @@ CSS Stylesheet was run through CSS Validator. No errors were detected.
 
 ![style.css CSS](assets/images/readme/css-validator.jpg)
 
+Script.js javascript was run through JShint validator. No errors were detected.
+
+![script.js validation](assets/images/readme/jshint-validator.webp)
+
 ### [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)**
 
 Google lighthouse gave original a performance of 91 in desktop view. I improved this by changing the size of the logo image down to 300x300 pixels.

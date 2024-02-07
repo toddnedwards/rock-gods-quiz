@@ -1,7 +1,9 @@
+/** Main Page Layout **/
+
 body {
     background-color: #000000;
     font-family: "Libre Franklin", sans-serif;
-    width: 100%;
+    width: 95%;
 }
 
 .background-image {
@@ -10,6 +12,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/** Header Section **/
 
 header {
     background-color: #000000;
@@ -35,6 +39,7 @@ header {
     margin: auto;
 }
 
+/** Start/ Instructions section **/
 
 #instructions {
     color: white;
@@ -53,6 +58,8 @@ li {
 .fa-solid {
     color: #FFFF00;
 }
+
+/** Buttons **/
 
 .answer-btn {
     display: flex;
@@ -78,7 +85,7 @@ button {
     cursor: pointer;
 }
 
-
+/** Quiz/ Questions Section **/
 
 #question-counter {
     color: white;
@@ -118,10 +125,6 @@ button {
 #next-btn:hover {
     background-color: #fff957;
     color: black;
-}
-
-.hide {
-    display: none;
 }
 
 .correct {
@@ -173,7 +176,7 @@ button {
 
 #results-container {
     color: white;
-    width: 400px;
+    width: 100%;
     margin: auto;
     padding-top: 50px;
     text-align: center;
